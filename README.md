@@ -7,7 +7,7 @@ If you use NPM, `npm install d3-geo-scale-bar`. Otherwise, download the [latest 
 
 ```html
 <script src="https://d3js.org/d3-selection.v1.min.js"></script>
-<script src="https://unpkg.com/d3-arrow@0.0.1/dist/d3-arrow.min.js"></script>
+<script src="https://unpkg.com/d3-arrow@0.0.2/dist/d3-arrow.min.js"></script>
 <script>
 
 const svg = d3.select("body").append("svg")
