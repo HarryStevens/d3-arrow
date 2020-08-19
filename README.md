@@ -1,5 +1,5 @@
 # d3-arrow
-Attach arrowheads to lines. This module is in alpha, so use with caution.
+Attach arrowheads to SVG elements. This module is in alpha, so use with caution.
 
 ## Installing
 
@@ -7,7 +7,7 @@ If you use NPM, `npm install d3-geo-scale-bar`. Otherwise, download the [latest 
 
 ```html
 <script src="https://d3js.org/d3-selection.v1.min.js"></script>
-<script src="https://unpkg.com/d3-arrow@0.0.6/dist/d3-arrow.min.js"></script>
+<script src="https://unpkg.com/d3-arrow@0.0.7/dist/d3-arrow.min.js"></script>
 <script>
 
 const myArrow = d3.arrow5();

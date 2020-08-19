@@ -1,7 +1,7 @@
 {
   "name": "d3-arrow",
   "version": "0.0.6",
-  "description": "Attach arrowheads to lines.",
+  "description": "Attach arrowheads to SVG elements.",
   "keywords": [
     "d3",
     "d3-module",
