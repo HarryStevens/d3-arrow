@@ -6,7 +6,7 @@ Attach arrowheads to SVG elements. This module is in alpha, so use with caution.
 If you use NPM, `npm install d3-arrow`. Otherwise, download the [latest release](https://github.com/HarryStevens/d3-arrow/raw/master/dist/d3-arrow.zip). AMD, CommonJS, and vanilla environments are supported. In vanilla, a d3 global is exported:
 
 ```html
-<script src="https://unpkg.com/d3-arrow@0.0.9/dist/d3-arrow.min.js"></script>
+<script src="https://unpkg.com/d3-arrow@0.0.10/dist/d3-arrow.min.js"></script>
 <script>
 
 const myArrow = d3.arrow5();
@@ -51,3 +51,19 @@ Creates a new arrow generator with an [<i>id</i>](#arrow_id) of "d3-arrow-11" an
 <a name="arrow13" href="#arrow13">#</a> d3.<b>arrow13</b>() · [Source](https://github.com/harrystevens/d3-arrow/blob/master/src/arrow-13.js "Source"), [Example](https://observablehq.com/d/7759e56ba89ced03 "Example")
 
 Creates a new arrow generator with an [<i>id</i>](#arrow_id) of "d3-arrow-13" and a [<i>scale</i>](#arrow_scale) of 1.
+
+<a name="_arrow" href="#_arrow">#</a> <i>arrow</i>(<i>context</i>) · [Source](https://github.com/d3/d3-arrow/blob/master/src/index.js), [Example](https://observablehq.com/d/7759e56ba89ced03 "Example")
+
+Add the arrow generator to the given <i>context</i>, which should be a selection of SVG elements.
+
+<a name="arrow_id" href="#arrow_id">#</a> <i>arrow</i>.id([<i>id</i>]) · [Source](https://github.com/d3/d3-arrow/blob/master/src/index.js), [Example](https://observablehq.com/d/7759e56ba89ced03 "Example")
+
+Sets or gets the arrow's unique <i>id</i> string, which you'll reference when setting the element's "marker-end" attribute.
+
+<a name="arrow_scale" href="#arrow_scale">#</a> <i>arrow</i>.scale([<i>scale</i>]) · [Source](https://github.com/d3/d3-arrow/blob/master/src/index.js), [Example](https://observablehq.com/d/7759e56ba89ced03 "Example")
+
+Sets or gets the arrow's <i>scale</i> number.
+
+<a name="arrow_attr" href="#arrow_attr">#</a> <i>arrow</i>.attr(<i>key</i>[, <i>value</i>]) · [Source](https://github.com/d3/d3-arrow/blob/master/src/utils/iterate.js), [Example](https://observablehq.com/d/7759e56ba89ced03 "Example")
+
+Sets or gets an appearance attribute's value.
