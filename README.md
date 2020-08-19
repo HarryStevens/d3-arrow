@@ -6,7 +6,7 @@ Attach arrowheads to SVG elements. This module is in alpha, so use with caution.
 If you use NPM, `npm install d3-arrow`. Otherwise, download the [latest release](https://github.com/HarryStevens/d3-arrow/raw/master/dist/d3-arrow.zip). AMD, CommonJS, and vanilla environments are supported. In vanilla, a d3 global is exported:
 
 ```html
-<script src="https://unpkg.com/d3-arrow@0.0.10/dist/d3-arrow.min.js"></script>
+<script src="https://unpkg.com/d3-arrow@0.0.11/dist/d3-arrow.min.js"></script>
 <script>
 
 const myArrow = d3.arrow5();
@@ -25,7 +25,7 @@ const svg = d3.select("body").append("svg")
 
 const myArrow = d3.arrow5()
     .id("my-arrow")
-    .attr("fill", "steelblue")
+    .attr("fill", "steelblue");
 
 svg.call(myArrow);
 
@@ -33,7 +33,7 @@ svg.append("polyline")
     .attr("marker-end", "url(#my-arrow)")
     .attr("points", [[5, 10], [55, 10]])
     .attr("stroke", "steelblue")
-    .attr("stroke-width", 2)
+    .attr("stroke-width", 2);
 ```
 
 <a name="arrow5" href="#arrow5">#</a> d3.<b>arrow5</b>() · [Source](https://github.com/harrystevens/d3-arrow/blob/master/src/arrow-5.js "Source"), [Example](https://observablehq.com/d/7759e56ba89ced03 "Example")
