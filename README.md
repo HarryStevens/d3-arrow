@@ -37,18 +37,18 @@ svg.append("polyline")
     .attr("stroke-width", 2)
 ```
 
-<a name="arrow5" href="#arrow5">#</a> d3.<b>regressionLinear</b>() · [Source](https://github.com/harrystevens/d3-arrow/blob/master/src/arrow-5.js "Source"), [Example](https://observablehq.com/d/7759e56ba89ced03 "Example")
+<a name="arrow5" href="#arrow5">#</a> d3.<b>arrow5</b>() · [Source](https://github.com/harrystevens/d3-arrow/blob/master/src/arrow-5.js "Source"), [Example](https://observablehq.com/d/7759e56ba89ced03 "Example")
 
 Creates a new arrow generator with an [<i>id</i>](#arrow_id) of "d3-arrow-5" and a [<i>scale</i>](#arrow_scale) of 1.
 
-<a name="arrow10" href="#arrow10">#</a> d3.<b>regressionLinear</b>() · [Source](https://github.com/harrystevens/d3-arrow/blob/master/src/arrow-10.js "Source"), [Example](https://observablehq.com/d/7759e56ba89ced03 "Example")
+<a name="arrow10" href="#arrow10">#</a> d3.<b>arrow10</b>() · [Source](https://github.com/harrystevens/d3-arrow/blob/master/src/arrow-10.js "Source"), [Example](https://observablehq.com/d/7759e56ba89ced03 "Example")
 
 Creates a new arrow generator with an [<i>id</i>](#arrow_id) of "d3-arrow-10" and a [<i>scale</i>](#arrow_scale) of 1.
 
-<a name="arrow11" href="#arrow11">#</a> d3.<b>regressionLinear</b>() · [Source](https://github.com/harrystevens/d3-arrow/blob/master/src/arrow-11.js "Source"), [Example](https://observablehq.com/d/7759e56ba89ced03 "Example")
+<a name="arrow11" href="#arrow11">#</a> d3.<b>arrow11</b>() · [Source](https://github.com/harrystevens/d3-arrow/blob/master/src/arrow-11.js "Source"), [Example](https://observablehq.com/d/7759e56ba89ced03 "Example")
 
 Creates a new arrow generator with an [<i>id</i>](#arrow_id) of "d3-arrow-11" and a [<i>scale</i>](#arrow_scale) of 1.
 
-<a name="arrow13" href="#arrow31">#</a> d3.<b>regressionLinear</b>() · [Source](https://github.com/harrystevens/d3-arrow/blob/master/src/arrow-13.js "Source"), [Example](https://observablehq.com/d/7759e56ba89ced03 "Example")
+<a name="arrow13" href="#arrow13">#</a> d3.<b>arrow13</b>() · [Source](https://github.com/harrystevens/d3-arrow/blob/master/src/arrow-13.js "Source"), [Example](https://observablehq.com/d/7759e56ba89ced03 "Example")
 
 Creates a new arrow generator with an [<i>id</i>](#arrow_id) of "d3-arrow-13" and a [<i>scale</i>](#arrow_scale) of 1.
