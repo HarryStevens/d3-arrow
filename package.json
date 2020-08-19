@@ -1,6 +1,6 @@
 {
   "name": "d3-arrow",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Attach arrowheads to lines.",
   "keywords": [
     "d3",
