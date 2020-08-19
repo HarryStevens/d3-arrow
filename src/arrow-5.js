@@ -29,7 +29,7 @@ export default function arrow5() {
   
   arrow.id = function(string){ return arguments.length ? (id = string, arrow) : id; }
   arrow.scale = function(number){ return arguments.length ? (scale = number, arrow) : scale; }
-  arrow.attr = function(key, value){ return arguments.length ? (attrs[key] = value, arrow) : attrs[key]; }
+  arrow.attr = function(key, value){ return arguments.length === 2 ? (attrs[key] = value, arrow) : attrs[key]; }
   
   return arrow;
 }
