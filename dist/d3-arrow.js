@@ -1,4 +1,4 @@
-// https://github.com/HarryStevens/d3-arrow#readme Version 0.0.11. Copyright 2020 Harry Stevens.
+// https://github.com/HarryStevens/d3-arrow#readme Version 0.0.12. Copyright 2020 Harry Stevens.
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
   typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -42,7 +42,7 @@
     };
 
     arrow.attr = function (key, value) {
-      return arguments.length ? (attrs[key] = value, arrow) : attrs[key];
+      return arguments.length === 2 ? (attrs[key] = value, arrow) : attrs[key];
     };
 
     return arrow;
@@ -77,7 +77,7 @@
     };
 
     arrow.attr = function (key, value) {
-      return arguments.length ? (attrs[key] = value, arrow) : attrs[key];
+      return arguments.length === 2 ? (attrs[key] = value, arrow) : attrs[key];
     };
 
     return arrow;
@@ -112,7 +112,7 @@
     };
 
     arrow.attr = function (key, value) {
-      return arguments.length ? (attrs[key] = value, arrow) : attrs[key];
+      return arguments.length === 2 ? (attrs[key] = value, arrow) : attrs[key];
     };
 
     return arrow;
@@ -147,7 +147,7 @@
     };
 
     arrow.attr = function (key, value) {
-      return arguments.length ? (attrs[key] = value, arrow) : attrs[key];
+      return arguments.length === 2 ? (attrs[key] = value, arrow) : attrs[key];
     };
 
     return arrow;
