@@ -1,4 +1,4 @@
-// https://github.com/HarryStevens/d3-arrow#readme Version 0.0.22. Copyright 2020 Harry Stevens.
+// https://github.com/HarryStevens/d3-arrow#readme Version 0.0.23. Copyright 2020 Harry Stevens.
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
   typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -63,6 +63,33 @@
 
     function arrow(context) {
       draw(context, attrs, id, scale, 17, 7.5, "M 1 1 L ".concat(18 * scale, " ").concat(7.5 * scale, " L 1 ").concat(14 * scale, " L ").concat(5 * scale, " ").concat(7.5 * scale, " z"));
+    }
+
+    arrow.id = function (string) {
+      return arguments.length ? (id = string, arrow) : id;
+    };
+
+    arrow.scale = function (number) {
+      return arguments.length ? (scale = number, arrow) : scale;
+    };
+
+    arrow.attr = function (key, value) {
+      return arguments.length === 2 ? (attrs[key] = value, arrow) : attrs[key];
+    };
+
+    return arrow;
+  }
+
+  function arrow3() {
+    var attrs = {
+      fill: "black",
+      stroke: "black"
+    };
+    var id = "d3-arrow-3";
+    var scale = 1;
+
+    function arrow(context) {
+      draw(context, attrs, id, scale, 21, 7, "M 1 1 Q ".concat(9 * scale, " ").concat(5 * scale, " ").concat(22 * scale, " ").concat(7 * scale, " Q ").concat(9 * scale, " ").concat(9 * scale, " 1 ").concat(13 * scale, " L ").concat(4 * scale, " ").concat(7 * scale, " Z"));
     }
 
     arrow.id = function (string) {
@@ -196,7 +223,7 @@
   exports.arrow11 = arrow11;
   exports.arrow13 = arrow13;
   exports.arrow2 = arrow2;
-  exports.arrow3 = arrow2;
+  exports.arrow3 = arrow3;
   exports.arrow5 = arrow5;
 
   Object.defineProperty(exports, '__esModule', { value: true });
