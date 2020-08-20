@@ -1,6 +1,6 @@
 import { iterate } from "./iterate";
 
-export default function draw(context, attrs, id, scale, refX, refY, d){
+export function draw(context, attrs, id, scale, refX, refY, d){
   let defs = context.select("defs");
   if (defs.empty()) {
     defs = context.append("defs");
