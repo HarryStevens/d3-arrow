@@ -1,4 +1,4 @@
-import { iterate } from "./utils/iterate";
+import { draw } from "./utils/draw";
 
 export default function arrow11() {
   let attrs = {
@@ -10,23 +10,15 @@ export default function arrow11() {
   let scale = 1;
   
   function arrow(context){
-    let defs = context.select("defs");
-    if (defs.empty()) {
-      defs = context.append("defs");
-    }
-
-    const path = defs.append("marker")
-        .attr("id", id)
-        .attr("refX", 7 * scale)
-        .attr("refY", 7 * scale)
-        .attr("markerWidth", 8 * scale)
-        .attr("markerHeight", 14 * scale)
-        .attr("markerUnits", "userSpaceOnUse")
-        .attr("orient", "auto-start-reverse")
-      .append("path")
-        .attr("d", `M 0 0 L ${7 * scale} ${7 * scale} L 0 ${14 * scale}`);
-
-    iterate(attrs, path);
+    draw(
+      context,
+      attrs,
+      id,
+      scale,
+      8,
+      8,
+      `M 1 1 L ${8 * scale} ${8 * scale} L 1 ${15 * scale}`
+    );
   }
   
   arrow.id = function(string){ return arguments.length ? (id = string, arrow) : id; }

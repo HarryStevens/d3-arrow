@@ -10,23 +10,15 @@ export default function arrow13() {
   let scale = 1;
   
   function arrow(context){
-    let defs = context.select("defs");
-    if (defs.empty()) {
-      defs = context.append("defs");
-    }
-
-    const path = defs.append("marker")
-        .attr("id", id)
-        .attr("refX", 12 * scale)
-        .attr("refY", 9 * scale)
-        .attr("markerWidth", 14 * scale)
-        .attr("markerHeight", 18 * scale)
-        .attr("markerUnits", "userSpaceOnUse")
-        .attr("orient", "auto-start-reverse")
-      .append("path")
-        .attr("d", `M 0 0 L ${12 * scale} ${9 * scale} L 0 ${18 * scale}`);
-
-    iterate(attrs, path);
+    draw(
+      context,
+      attrs,
+      id,
+      scale,
+      13,
+      10,
+      `M 1 1 L ${13 * scale} ${10 * scale} L 1 ${19 * scale}`
+    );
   }
   
   arrow.id = function(string){ return arguments.length ? (id = string, arrow) : id; }
