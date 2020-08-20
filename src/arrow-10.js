@@ -1,6 +1,6 @@
 import { draw } from "./utils/draw";
 
-function arrow10(){
+export default function arrow10(){
   let attrs = {
     fill: "none",
     stroke: "black",
