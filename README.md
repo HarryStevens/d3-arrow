@@ -6,7 +6,7 @@ Attach arrowheads to SVG elements. This module is in alpha, so use with caution.
 If you use NPM, `npm install d3-arrow`. Otherwise, download the [latest release](https://github.com/HarryStevens/d3-arrow/raw/master/dist/d3-arrow.zip). AMD, CommonJS, and vanilla environments are supported. In vanilla, a d3 global is exported:
 
 ```html
-<script src="https://unpkg.com/d3-arrow@0.0.23/dist/d3-arrow.min.js"></script>
+<script src="https://unpkg.com/d3-arrow@0.0.24/dist/d3-arrow.min.js"></script>
 <script>
 
 const arrow = d3.arrow1();
@@ -44,6 +44,10 @@ Creates a new arrow generator with an [<i>id</i>](#arrow_id) of "d3-arrow-1" and
 <a name="arrow2" href="#arrow2">#</a> d3.<b>arrow2</b>() · [Source](https://github.com/harrystevens/d3-arrow/blob/master/src/arrow-2.js "Source"), [Example](https://observablehq.com/d/7759e56ba89ced03 "Example")
 
 Creates a new arrow generator with an [<i>id</i>](#arrow_id) of "d3-arrow-2" and a [<i>scale</i>](#arrow_scale) of 1.
+
+<a name="arrow3" href="#arrow3">#</a> d3.<b>arrow3</b>() · [Source](https://github.com/harrystevens/d3-arrow/blob/master/src/arrow-3.js "Source"), [Example](https://observablehq.com/d/7759e56ba89ced03 "Example")
+
+Creates a new arrow generator with an [<i>id</i>](#arrow_id) of "d3-arrow-3" and a [<i>scale</i>](#arrow_scale) of 1.
 
 <a name="arrow5" href="#arrow5">#</a> d3.<b>arrow5</b>() · [Source](https://github.com/harrystevens/d3-arrow/blob/master/src/arrow-5.js "Source"), [Example](https://observablehq.com/d/7759e56ba89ced03 "Example")
 
