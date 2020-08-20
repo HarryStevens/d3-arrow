@@ -2,7 +2,8 @@ import { draw } from "./utils/draw";
 
 export default function arrow2() {
   let attrs = {
-    fill: "black"
+    fill: "black",
+    stroke: "black"
   };
   let id = "d3-arrow-2";
   let scale = 1;
@@ -14,8 +15,8 @@ export default function arrow2() {
       id,
       scale,
       17,
-      8,
-      `M 1 1 L ${20 * scale} ${8 * scale} L 1 ${15 * scale} L ${4 * scale} ${8 * scale} z`
+      7,
+      `M 1 1 L ${18 * scale} ${7 * scale} L 1 ${13 * scale} L ${5 * scale} ${7 * scale} z`
     );
   }
   

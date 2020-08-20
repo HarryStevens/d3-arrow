@@ -1,11 +1,11 @@
 import { draw } from "./utils/draw";
 
-export default function arrow1() {
+export default function arrow3() {
   let attrs = {
     fill: "black",
     stroke: "black"
   };
-  let id = "d3-arrow-1";
+  let id = "d3-arrow-3";
   let scale = 1;
   
   function arrow(context){
@@ -14,9 +14,9 @@ export default function arrow1() {
       attrs,
       id,
       scale,
-      15,
-      8,
-      `M 1 1 Q ${7 * scale} ${5 * scale} ${16 * scale} ${8 * scale} Q ${7 * scale} ${11 * scale} 1 ${15 * scale} L ${4 * scale} ${8 * scale} Z`
+      21,
+      7,
+      `M 1 1 Q ${9 * scale} ${5 * scale} ${22 * scale} ${7 * scale} Q ${9 * scale} ${9 * scale} 1 ${13 * scale} L ${4 * scale} ${7 * scale} Z`
     );
   }
   
