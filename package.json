@@ -1,6 +1,6 @@
 {
   "name": "d3-arrow",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "description": "Attach arrowheads to SVG elements.",
   "keywords": [
     "d3",
