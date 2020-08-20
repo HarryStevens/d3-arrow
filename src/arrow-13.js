@@ -1,4 +1,4 @@
-import { iterate } from "./utils/iterate";
+import { draw } from "./utils/draw";
 
 export default function arrow13() {
   let attrs = {
