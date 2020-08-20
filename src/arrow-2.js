@@ -15,8 +15,8 @@ export default function arrow2() {
       id,
       scale,
       17,
-      7,
-      `M 1 1 L ${18 * scale} ${7 * scale} L 1 ${13 * scale} L ${5 * scale} ${7 * scale} z`
+      7.5,
+      `M 1 1 L ${18 * scale} ${7.5 * scale} L 1 ${14 * scale} L ${5 * scale} ${7.5 * scale} z`
     );
   }
   
