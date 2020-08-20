@@ -1,4 +1,4 @@
-// https://github.com/HarryStevens/d3-arrow#readme Version 0.0.15. Copyright 2020 Harry Stevens.
+// https://github.com/HarryStevens/d3-arrow#readme Version 0.0.16. Copyright 2020 Harry Stevens.
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
   typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -15,7 +15,7 @@
     }
   }
 
-  function draw$1(context, attrs, id, scale, refX, refY, d) {
+  function draw(context, attrs, id, scale, refX, refY, d) {
     var defs = context.select("defs");
 
     if (defs.empty()) {
@@ -34,7 +34,7 @@
     var scale = 1;
 
     function arrow(context) {
-      draw$1(context, attrs, id, scale, 14, 9, "M 1 1 Q ".concat(8 * scale, " ").concat(6 * scale, " ").concat(16 * scale, " ").concat(9 * scale, " Q ").concat(8 * scale, " ").concat(12 * scale, " 1 ").concat(17 * scale, " L ").concat(4 * scale, " ").concat(9 * scale, " Z"));
+      draw(context, attrs, id, scale, 14, 9, "M 1 1 Q ".concat(8 * scale, " ").concat(6 * scale, " ").concat(16 * scale, " ").concat(9 * scale, " Q ").concat(8 * scale, " ").concat(12 * scale, " 1 ").concat(17 * scale, " L ").concat(4 * scale, " ").concat(9 * scale, " Z"));
     }
 
     arrow.id = function (string) {
@@ -60,7 +60,7 @@
     var scale = 1;
 
     function arrow(context) {
-      draw$1(context, attrs, id, scale, 14, 8, "M 1 1 L ".concat(16 * scale, " ").concat(8 * scale, " L 1 ").concat(15 * scale, " L ").concat(3.5 * scale, " ").concat(8 * scale, " z"));
+      draw(context, attrs, id, scale, 14, 8, "M 1 1 L ".concat(16 * scale, " ").concat(8 * scale, " L 1 ").concat(15 * scale, " L ").concat(3.5 * scale, " ").concat(8 * scale, " z"));
     }
 
     arrow.id = function (string) {
@@ -88,7 +88,7 @@
     var scale = 1;
 
     function arrow(context) {
-      draw$1(context, attrs, id, scale, 5, 4.5, "M 1 1 L ".concat(5 * scale, " ").concat(4.5 * scale, " L 1 ").concat(8 * scale));
+      draw(context, attrs, id, scale, 5, 4.5, "M 1 1 L ".concat(5 * scale, " ").concat(4.5 * scale, " L 1 ").concat(8 * scale));
     }
 
     arrow.id = function (string) {
@@ -116,7 +116,7 @@
     var scale = 1;
 
     function arrow(context) {
-      draw$1(context, attrs, id, scale, 8, 8, "M 1 1 L ".concat(8 * scale, " ").concat(8 * scale, " L 1 ").concat(15 * scale));
+      draw(context, attrs, id, scale, 8, 8, "M 1 1 L ".concat(8 * scale, " ").concat(8 * scale, " L 1 ").concat(15 * scale));
     }
 
     arrow.id = function (string) {
