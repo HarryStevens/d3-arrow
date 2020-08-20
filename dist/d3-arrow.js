@@ -1,4 +1,4 @@
-// https://github.com/HarryStevens/d3-arrow#readme Version 0.0.20. Copyright 2020 Harry Stevens.
+// https://github.com/HarryStevens/d3-arrow#readme Version 0.0.21. Copyright 2020 Harry Stevens.
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
   typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -28,13 +28,14 @@
 
   function arrow1() {
     var attrs = {
-      fill: "black"
+      fill: "black",
+      stroke: "black"
     };
     var id = "d3-arrow-1";
     var scale = 1;
 
     function arrow(context) {
-      draw(context, attrs, id, scale, 14, 9, "M 1 1 Q ".concat(8 * scale, " ").concat(6 * scale, " ").concat(16 * scale, " ").concat(9 * scale, " Q ").concat(8 * scale, " ").concat(12 * scale, " 1 ").concat(17 * scale, " L ").concat(4 * scale, " ").concat(9 * scale, " Z"));
+      draw(context, attrs, id, scale, 15, 8, "M 1 1 Q ".concat(7 * scale, " ").concat(5 * scale, " ").concat(16 * scale, " ").concat(8 * scale, " Q ").concat(7 * scale, " ").concat(11 * scale, " 1 ").concat(15 * scale, " L ").concat(4 * scale, " ").concat(8 * scale, " Z"));
     }
 
     arrow.id = function (string) {
@@ -54,13 +55,14 @@
 
   function arrow2() {
     var attrs = {
-      fill: "black"
+      fill: "black",
+      stroke: "black"
     };
     var id = "d3-arrow-2";
     var scale = 1;
 
     function arrow(context) {
-      draw(context, attrs, id, scale, 17, 8, "M 1 1 L ".concat(20 * scale, " ").concat(8 * scale, " L 1 ").concat(15 * scale, " L ").concat(4 * scale, " ").concat(8 * scale, " z"));
+      draw(context, attrs, id, scale, 17, 7, "M 1 1 L ".concat(18 * scale, " ").concat(7 * scale, " L 1 ").concat(13 * scale, " L ").concat(5 * scale, " ").concat(7 * scale, " z"));
     }
 
     arrow.id = function (string) {
@@ -80,13 +82,14 @@
 
   function arrow5() {
     var attrs = {
-      fill: "black"
+      fill: "black",
+      stroke: "black"
     };
     var id = "d3-arrow-5";
     var scale = 1;
 
     function arrow(context) {
-      draw(context, attrs, id, scale, 14, 8, "M 1 1 L ".concat(16 * scale, " ").concat(8 * scale, " L 1 ").concat(15 * scale, " L ").concat(3.5 * scale, " ").concat(8 * scale, " z"));
+      draw(context, attrs, id, scale, 14, 7, "M 1 1 L ".concat(15 * scale, " ").concat(7 * scale, " L 1 ").concat(13 * scale, " L ").concat(3 * scale, " ").concat(7 * scale, " z"));
     }
 
     arrow.id = function (string) {
@@ -193,6 +196,7 @@
   exports.arrow11 = arrow11;
   exports.arrow13 = arrow13;
   exports.arrow2 = arrow2;
+  exports.arrow3 = arrow2;
   exports.arrow5 = arrow5;
 
   Object.defineProperty(exports, '__esModule', { value: true });
