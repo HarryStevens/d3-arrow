@@ -1,4 +1,4 @@
-// https://github.com/HarryStevens/d3-arrow#readme Version 0.0.21. Copyright 2020 Harry Stevens.
+// https://github.com/HarryStevens/d3-arrow#readme Version 0.0.22. Copyright 2020 Harry Stevens.
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
   typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -62,7 +62,7 @@
     var scale = 1;
 
     function arrow(context) {
-      draw(context, attrs, id, scale, 17, 7, "M 1 1 L ".concat(18 * scale, " ").concat(7 * scale, " L 1 ").concat(13 * scale, " L ").concat(5 * scale, " ").concat(7 * scale, " z"));
+      draw(context, attrs, id, scale, 17, 7.5, "M 1 1 L ".concat(18 * scale, " ").concat(7.5 * scale, " L 1 ").concat(14 * scale, " L ").concat(5 * scale, " ").concat(7.5 * scale, " z"));
     }
 
     arrow.id = function (string) {
