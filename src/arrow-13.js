@@ -6,7 +6,7 @@ export default function arrow13() {
     stroke: "black",
     "stroke-width": 1
   };
-  let id = "d3-arrow-10";
+  let id = "d3-arrow-13";
   let scale = 1;
   
   function arrow(context){
