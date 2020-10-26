@@ -1,4 +1,4 @@
-// https://github.com/HarryStevens/d3-arrow#readme Version 0.0.24. Copyright 2020 Harry Stevens.
+// https://github.com/HarryStevens/d3-arrow#readme Version 0.0.25. Copyright 2020 Harry Stevens.
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
   typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -168,7 +168,7 @@
       stroke: "black",
       "stroke-width": 1
     };
-    var id = "d3-arrow-10";
+    var id = "d3-arrow-11";
     var scale = 1;
 
     function arrow(context) {
@@ -196,7 +196,7 @@
       stroke: "black",
       "stroke-width": 1
     };
-    var id = "d3-arrow-10";
+    var id = "d3-arrow-13";
     var scale = 1;
 
     function arrow(context) {
